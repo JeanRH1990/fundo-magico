@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         viewLoader(true);
 
         try {
-            const response = await fetch("https://jeanrh.app.n8n.cloud/webhook-test/fundo-magico", {
+            const response = await fetch("https://jeanrh.app.n8n.cloud/webhook/fundo-magico", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
